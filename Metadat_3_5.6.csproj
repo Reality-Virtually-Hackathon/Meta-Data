@@ -107,6 +107,7 @@
     <Compile Include="Assets\Earth\Scripts\MoveScript.cs" />
     <Compile Include="Assets\Earth\Scripts\SphereScript.cs" />
     <Compile Include="Assets\EarthRendering Free\CameraCtrl.cs" />
+    <Compile Include="Assets\LoadLocation.cs" />
     <Compile Include="Assets\Mapbox\Core\Plugins\Mapbox\vector-tile-cs\ExtensionMethods\Enums.cs" />
     <Compile Include="Assets\Mapbox\Core\Plugins\Mapbox\vector-tile-cs\ExtensionMethods\VectorTile.cs" />
     <Compile Include="Assets\Mapbox\Core\Plugins\Mapbox\vector-tile-cs\ExtensionMethods\VectorTileFeature.cs" />
@@ -681,6 +682,7 @@
     <Compile Include="Assets\MetaSDK\MetaExamples\Assets\Scripts\Buttons\CubeButtonEventReaction.cs" />
     <Compile Include="Assets\MetaSDK\MetaExamples\Assets\Scripts\GazeExampleScript.cs" />
     <Compile Include="Assets\RasterMap.cs" />
+    <Compile Include="Assets\ScaleEarth.cs" />
     <Compile Include="Assets\Unity3DGlobe\Scripts\CameraObrbit.cs" />
     <Compile Include="Assets\Unity3DGlobe\Scripts\DataLoader.cs" />
     <Compile Include="Assets\Unity3DGlobe\Scripts\DataVisualizer.cs" />

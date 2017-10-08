@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/scene.unity
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/population.unity
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Main.unity
+    guid: 6d244af0827d4dc44843fc3dcac18780
+  - enabled: 1
+    path: Assets/chicago.unity
+    guid: 132e36e5b8cf8de46a428678caa5ffe1
+  - enabled: 1
+    path: Assets/losangeles.unity
+    guid: c2f042735ff1da14bb09b41673cd9e9d

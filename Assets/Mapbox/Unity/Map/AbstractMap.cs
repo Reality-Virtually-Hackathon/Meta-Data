@@ -1,14 +1,16 @@
 ﻿namespace Mapbox.Unity.Map
 {
 	using System;
+    using System.IO;
 	using Mapbox.Unity.MeshGeneration;
 	using Mapbox.Unity.Utilities;
 	using Utils;
 	using UnityEngine;
 	using Mapbox.Map;
+    using System.Collections.Generic;
 
-	// TODO: make abstract! For example: MapFromFile, MapFromLocationProvider, etc.
-	public class AbstractMap : MonoBehaviour, IMap
+    // TODO: make abstract! For example: MapFromFile, MapFromLocationProvider, etc.
+    public class AbstractMap : MonoBehaviour, IMap
 	{
 		[Geocode]
 		[SerializeField]
@@ -65,7 +67,7 @@
 				_mapCenterLatitudeLongitude = value;
 			}
 		}
-
+        
 		Vector2d _mapCenterMercator;
 		public Vector2d CenterMercator
 		{
@@ -111,8 +113,10 @@
 			_mapVisualizer.Destroy();
 		}
 
-		// This is the part that is abstract?
-		protected virtual void Start()
+       
+
+        // This is the part that is abstract?
+        protected virtual void Start()
 		{
 			var latLonSplit = _latitudeLongitudeString.Split(',');
 			_mapCenterLatitudeLongitude = new Vector2d(double.Parse(latLonSplit[0]), double.Parse(latLonSplit[1]));

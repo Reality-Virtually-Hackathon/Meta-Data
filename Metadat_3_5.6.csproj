@@ -676,6 +676,7 @@
     <Compile Include="Assets\MetaSDK\MetaExamples\Assets\Scripts\Buttons\CubeButtonEventReaction.cs" />
     <Compile Include="Assets\MetaSDK\MetaExamples\Assets\Scripts\GazeExampleScript.cs" />
     <Compile Include="Assets\RasterMap.cs" />
+    <Compile Include="Assets\layerdata.cs" />
     <Compile Include="Assets\mapscript.cs" />
   </ItemGroup>
   <ItemGroup>
